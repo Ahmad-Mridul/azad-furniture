@@ -98,7 +98,7 @@ const page = () => {
                     </div>
                     <div className="card space-y-3">
                         <div className="relative border border-gray-400 rounded-2xl">
-                            <Image src={product1} alt="" />
+                            <Image src={product2} alt="" />
                             <Image
                                 src={wishlist}
                                 alt=""
@@ -117,7 +117,7 @@ const page = () => {
                     </div>
                     <div className="card space-y-3">
                         <div className="relative border border-gray-400 rounded-2xl">
-                            <Image src={product1} alt="" />
+                            <Image src={product3} alt="" />
                             <Image
                                 src={wishlist}
                                 alt=""
@@ -136,7 +136,7 @@ const page = () => {
                     </div>
                     <div className="card space-y-3">
                         <div className="relative border border-gray-400 rounded-2xl">
-                            <Image src={product1} alt="" />
+                            <Image src={product4} alt="" />
                             <Image
                                 src={wishlist}
                                 alt=""
@@ -155,7 +155,7 @@ const page = () => {
                     </div>
                     <div className="card space-y-3">
                         <div className="relative border border-gray-400 rounded-2xl">
-                            <Image src={product1} alt="" />
+                            <Image src={product5} alt="" />
                             <Image
                                 src={wishlist}
                                 alt=""

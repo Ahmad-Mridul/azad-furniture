@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 const saira = Saira({
-  subsets: ["latin"],
-  variable: "--font-saira",
+    subsets: ["latin"],
+    variable: "--font-saira",
 });
 
 export const metadata = {
@@ -57,7 +57,10 @@ export default function RootLayout({ children }) {
                                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
                             >
                                 <li>
-                                    <a>About Us</a>
+                                    <Link href="/about-us">About Us</Link>
+                                </li>
+                                <li>
+                                    <Link href="/blog">BLOG</Link>
                                 </li>
                             </ul>
                         </div>
@@ -69,6 +72,9 @@ export default function RootLayout({ children }) {
                         <ul className="menu menu-horizontal px-1">
                             <li>
                                 <Link href="/about-us">About Us</Link>
+                            </li>
+                            <li>
+                                <Link href="/blog">BLOG</Link>
                             </li>
                         </ul>
                     </div>
