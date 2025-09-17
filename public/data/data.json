@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "/about-us/blog1.png",
+        "title": "House boating on Lake Shasta",
+        "content": "The best way to spend a long 4th of July weekend. Wake boarding, swimming, barbecues, and bonfires."
+    },
+    {
+        "id": 2,
+        "image": "/about-us/blog2.png",
+        "title": "Mountain Hiking Adventure",
+        "content": "Exploring nature’s beauty while hiking through mountain trails and enjoying breathtaking views."
+    },
+    {
+        "id": 3,
+        "image": "/about-us/blog3.png",
+        "title": "Beachside Camping Experience",
+        "content": "Camping on the beach with friends, enjoying sunsets, beach games, and campfire stories."
+    },
+    {
+        "id": 4,
+        "image": "/about-us/blog1.png",
+        "title": "Family Picnic in the Park",
+        "content": "Spending quality time outdoors with family, delicious food, and fun activities."
+    },
+    {
+        "id": 5,
+        "image": "/about-us/blog2.png",
+        "title": "Road Trip Across California",
+        "content": "Driving along scenic routes, visiting iconic landmarks, and making lifelong memories."
+    },
+    {
+        "id": 6,
+        "image": "/about-us/blog3.png",
+        "title": "Winter Skiing Holiday",
+        "content": "Hitting the slopes, enjoying the snow, and relaxing in cozy cabins during the winter holidays."
+    }
+]
