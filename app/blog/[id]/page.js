@@ -7,7 +7,6 @@ import Link from "next/link";
 const page = async ({ params }) => {
     const { id } = await params;
     const blog = blogs.find((blog) => blog.id.toString() === id);
-    console.log(blog);
     return (
         <div className="mt-8">
             <div className="w-[75%] mx-auto">
