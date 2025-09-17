@@ -11,14 +11,14 @@ const page = () => {
         <div>
             <div
                 style={{ backgroundImage: `url(${heroBg.src})` }}
-                className="flex justify-center items-center bg-cover  h-[556px] bg-no-repeat "
+                className="flex justify-center items-center bg-cover  md:h-[556px] h-[200px] bg-no-repeat "
             >
                 <h1 className="text-white text-[64px] font-saira">
                     Contact Us
                 </h1>
             </div>
-            <div className="p-25 bg-[#FFF9ED] flex items-center justify-around">
-                <div className="shadow border border-gray-200 rounded-2xl px-42 py-32">
+            <div className="md:p-25 bg-[#FFF9ED] flex md:flex-row flex-col items-center justify-around p-2 gap-5">
+                <div className="shadow border border-gray-200 rounded-2xl md:px-42 md:py-32 p-15">
                     <div className="flex items-center gap-2">
                         <p className="uppercase">Contact Form</p>
                         <Image src={arrow} alt="" />

@@ -12,7 +12,7 @@ const page = async ({ params }) => {
         <div className="mt-8">
             <div className="w-[75%] mx-auto">
                 <div className="space-y-5">
-                    <div className="flex items-center gap-5 px-25">
+                    <div className="flex items-center gap-5 md:px-25">
                         <button className="px-4 py-1 rounded-xl bg-[#CFCFCF] border border-[#C77777]">
                             Design
                         </button>
@@ -20,8 +20,8 @@ const page = async ({ params }) => {
                             16 March 2025
                         </p>
                     </div>
-                    <h1 className="text-5xl font-bold px-25">{blog.title}</h1>
-                    <div className="relative w-full h-120">
+                    <h1 className="md:text-5xl text-3xl font-bold md:px-25">{blog.title}</h1>
+                    <div className="relative w-full md:h-120 h-80">
                         <Image
                             src={blog.image}
                             alt={blog.title}
@@ -32,7 +32,7 @@ const page = async ({ params }) => {
                     </div>
                 </div>
             </div>
-            <div className="w-[75%] mx-auto px-25 mt-16 font-thin">
+            <div className="w-[75%] mx-auto md:px-25 mt-16 font-thin">
                 <p>
                     Google has been investing in AI for many years and bringing
                     its benefits to individuals, businesses and communities.
@@ -82,7 +82,7 @@ const page = async ({ params }) => {
                     or professional — all in just a few clicks. We’ll be rolling
                     out these new experiences to testers in the coming weeks.
                 </p>
-                <div className="relative w-[90%] my-5 mx-auto h-80">
+                <div className="relative w-[90%] my-5 mx-auto  h-80">
                     <Image
                         src={blog.image}
                         alt={blog.title}
@@ -102,14 +102,14 @@ const page = async ({ params }) => {
             </div>
             <div className="w-[90%] mx-auto py-20">
                 <div className="flex items-center justify-between">
-                    <p className="text-[#F05B3A] text-5xl font-bold">
+                    <p className="text-[#F05B3A] md:text-5xl text-2xl font-bold">
                         Related blog
                     </p>
                     <Link href="/blog" className="btn bg-[#808080] rounded-xl text-white">
                         View All <FaLongArrowAltRight />
                     </Link>
                 </div>
-                <div className="mt-5 grid grid-cols-3 gap-9">
+                <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-9">
                     {blogs.slice(0,3).map((blog, idx) => (
                         <div
                             className="p-3 bg-[#FFF9ED] space-y-2 rounded-2xl shadow"

@@ -15,12 +15,12 @@ const page = () => {
             {/* hero section */}
             <div
                 style={{ backgroundImage: `url(${heroBg.src})` }}
-                className="flex justify-center items-center bg-cover  h-[556px] bg-no-repeat "
+                className="flex justify-center items-center bg-cover  md:h-[556px] h-[200px] bg-no-repeat "
             >
                 <h1 className="text-white text-[64px] font-saira">BLOG</h1>
             </div>
             {/* blogs */}
-            <div className="py-18 px-25 mx-auto grid grid-cols-3 gap-9">
+            <div className="py-18 md:px-25 px-5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-9">
                 {blogs.map((blog, idx) => (
                     <div
                         className="p-3 bg-[#FFF9ED] space-y-2 rounded-2xl shadow"

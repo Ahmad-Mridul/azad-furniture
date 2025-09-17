@@ -20,14 +20,14 @@ const page = () => {
             {/* hero section */}
             <div
                 style={{ backgroundImage: `url(${heroBg.src})` }}
-                className="flex justify-center items-center bg-cover  h-[556px] bg-no-repeat "
+                className="flex justify-center items-center bg-cover  md:h-[556px] h-[200px] bg-no-repeat "
             >
                 <h1 className="text-white text-[64px] font-saira">About Us</h1>
             </div>
 
             {/* services */}
-            <div className="my-30 px-25">
-                <div className="features p-7 flex gap-10 rounded items-center justify-center">
+            <div className="md:my-30 md:px-25 my-5">
+                <div className="features p-7 flex flex-col md:flex-row gap-10 rounded items-center justify-center">
                     <div className="services rounded px-10 py-7 space-y-2">
                         <div className="flex items-center gap-5">
                             <Image src={clock} alt="" />
@@ -70,13 +70,13 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className=""></div>
+            {/* <div className=""></div> */}
             <Image src={light} alt="" className="w-full" />
             <div className="my-14 px-20">
-                <h3 className="text-center text-[70px] font-semibold mb-12">
+                <h3 className="text-center md:text-[70px] text-4xl font-semibold mb-12">
                     Our Top Products
                 </h3>
-                <div className="flex gap-5 items-center justify-center">
+                <div className="flex flex-col md:flex-row gap-5 items-center justify-center">
                     <div className="card space-y-3">
                         <div className="relative border border-gray-400 rounded-2xl">
                             <Image src={product1} alt="" />
