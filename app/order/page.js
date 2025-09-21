@@ -206,6 +206,7 @@ import Image from "next/image";
 import React, { useState, useMemo } from "react";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import chair from "@/public/products/chair.png";
+import Link from "next/link";
 
 export default function Page() {
     const initialProducts = [
@@ -402,9 +403,9 @@ export default function Page() {
                                 </div>
                             </div>
 
-                            <button className="w-full py-3 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 text-white font-medium hover:opacity-90">
+                            <Link href="/order2" className="btn border-none w-full py-3 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 text-white font-medium hover:opacity-90">
                                 Proceed to checkout
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
