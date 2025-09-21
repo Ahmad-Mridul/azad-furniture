@@ -16,7 +16,7 @@ import wishlist from "@/public/about-us/wishlist.png";
 import "./about-us.css";
 const page = () => {
     return (
-        <div>
+        <div className="bg-white">
             {/* hero section */}
             <div
                 style={{ backgroundImage: `url(${heroBg.src})` }}
@@ -26,7 +26,7 @@ const page = () => {
             </div>
 
             {/* services */}
-            <div className="md:my-30 md:px-25 my-5">
+            <div className="md:my-30 md:px-25 my-5 ">
                 <div className="features p-7 flex flex-col md:flex-row gap-10 rounded items-center justify-center">
                     <div className="services rounded px-10 py-7 space-y-2">
                         <div className="flex items-center gap-5">
@@ -72,8 +72,8 @@ const page = () => {
             </div>
             {/* <div className=""></div> */}
             <Image src={light} alt="" className="w-full" />
-            <div className="my-14 px-20">
-                <h3 className="text-center md:text-[70px] text-4xl font-semibold mb-12">
+            <div className="my-14 px-20 bg-white">
+                <h3 className="text-center md:text-[70px] text-4xl font-semibold mb-12 text-black">
                     Our Top Products
                 </h3>
                 <div className="flex flex-col md:flex-row gap-5 items-center justify-center">
@@ -174,7 +174,7 @@ const page = () => {
                     </div>
                 </div>
                 <div className="text-center">
-                    <button className="btn mt-5 services">Shop Now</button>
+                    <button className="rounded-xl my-5 services px-20 py-4">Shop Now</button>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ const page = () => {
                 <h1 className="text-white text-[64px] font-saira">BLOG</h1>
             </div>
             {/* blogs */}
-            <div className="py-18 md:px-25 px-5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-9">
+            <div className="py-18 md:px-25 px-5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-9 bg-white">
                 {blogs.map((blog, idx) => (
                     <div
                         className="p-3 bg-[#FFF9ED] space-y-2 rounded-2xl shadow"
@@ -34,7 +34,7 @@ const page = () => {
                             height={250}
                         />
                         <Link href={`/blog/${blog.id}`}>
-                            <h2 className="text-2xl font-medium">
+                            <h2 className="text-2xl font-medium text-black">
                                 {blog.title}
                             </h2>
                         </Link>

@@ -60,11 +60,14 @@ export default function RootLayout({ children }) {
                                 <li>
                                     <Link href="/contact">Contact Us</Link>
                                 </li>
+                                <li>
+                                    <Link href="/order">Order</Link>
+                                </li>
                             </ul>
                         </div>
                         <Link
                             href="/"
-                            className="btn btn-ghost text-xl bg-gray-300 rounded"
+                            className="btn btn-ghost text-xl text-black bg-gray-300 rounded"
                         >
                             Furniture
                         </Link>
@@ -79,6 +82,9 @@ export default function RootLayout({ children }) {
                             </li>
                             <li>
                                 <Link href="/contact">Contact Us</Link>
+                            </li>
+                            <li>
+                                <Link href="/order">Order</Link>
                             </li>
                         </ul>
                     </div>

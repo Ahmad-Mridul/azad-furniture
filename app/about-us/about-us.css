@@ -4,9 +4,13 @@
 .services{
     background: linear-gradient(90deg, #B88E2F, #F5C964, #B88E2F);
 }
-.services p{
-    /* font-size: 10px; */
-}
 .services h2{
     color: white;
+}
+.services p{
+    color: black;
+}
+
+.card h4,p{
+    color: black;
 }
